@@ -1,0 +1,721 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'ru' Physical Memory: 3984 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/Unity/Study/Classic Space Shooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55080
+Successfully changed project path to: C:/Projects/Unity/Study/Classic Space Shooter
+C:/Projects/Unity/Study/Classic Space Shooter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 117.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/Unity/Study/Classic Space Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     1992 MB
+    Driver:   26.20.100.7926
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005792 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.050 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 7.349500 ms (FindLiveObjects: 0.470800 ms CreateObjectMapping: 0.287300 ms MarkObjects: 6.449700 ms  DeleteObjects: 0.139400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Enemys/testSpaceShip.prefab
+  artifactKey: Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/testSpaceShip.prefab using Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a742a9ccb7a72d9154c3c806020e2bc') in 0.194764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Prefabs/Enemys/enemyMissle.prefab
+  artifactKey: Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/enemyMissle.prefab using Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85effb2521f78607ad49fb1ec3f44f8') in 0.040437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Prefabs/Enemys/mineBase.prefab
+  artifactKey: Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/mineBase.prefab using Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'MineLight' used by the Animation component 'mineBase' must be marked as Legacy.
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'ad377cb7e77dee3257de263a59ddb8ef') in 0.064924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b81dbb6586e7d676104ee97fca4af66') in 0.038390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.342246 seconds.
+  path: Assets/Scripts/Enemy/EnemyMove.cs
+  artifactKey: Guid(09f348fe4dcb6cf4280bcfcbfcad6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyMove.cs using Guid(09f348fe4dcb6cf4280bcfcbfcad6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef498bfa14c79242181484ec2b3b13d') in 0.040745 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1839 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 3.086300 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.131200 ms MarkObjects: 2.672200 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 29.608450 seconds.
+  path: Assets/Scripts/Enemy/EnemyMove.cs
+  artifactKey: Guid(09f348fe4dcb6cf4280bcfcbfcad6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyMove.cs using Guid(09f348fe4dcb6cf4280bcfcbfcad6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdae4c900bd008a2ddc9ee86e4e29517') in 0.013284 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 3.862900 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.129600 ms MarkObjects: 3.375000 ms  DeleteObjects: 0.056300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 24.528938 seconds.
+  path: Assets/Prefabs/shipRocket.prefab
+  artifactKey: Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shipRocket.prefab using Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e2e25621e0c50e0a19b074d844bf21') in 0.109020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.297384 seconds.
+  path: Assets/Prefabs/shipRocket.prefab
+  artifactKey: Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shipRocket.prefab using Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537c5a70afaf0f2fef5f47fa7f44df99') in 0.020438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.861730 seconds.
+  path: Assets/Prefabs/shipRocket.prefab
+  artifactKey: Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shipRocket.prefab using Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059e1604b58bce22ea71d513abcaaf69') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998496 seconds.
+  path: Assets/Prefabs/playerMissle.prefab
+  artifactKey: Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/playerMissle.prefab using Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeace28b2957bd3317cf3e8ec441999') in 0.020025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.925343 seconds.
+  path: Assets/Prefabs/playerMissle.prefab
+  artifactKey: Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/playerMissle.prefab using Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce3d0766d73747b21e6fce9cbfd8f88') in 0.019346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.232200 seconds.
+  path: Assets/Prefabs/playerMissle.prefab
+  artifactKey: Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/playerMissle.prefab using Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4740c506cb35e461df956adebee0ceb7') in 0.027827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.663599 seconds.
+  path: Assets/Prefabs/Enemys/enemyMissle.prefab
+  artifactKey: Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/enemyMissle.prefab using Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c8c825dfd908cf04e61e00a3053d6') in 0.019221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.730352 seconds.
+  path: Assets/Prefabs/Enemys/enemyMissle.prefab
+  artifactKey: Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/enemyMissle.prefab using Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6124d350352bcac7159bb9a34367aec') in 0.018364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.805931 seconds.
+  path: Assets/Prefabs/Enemys/enemyMissle.prefab
+  artifactKey: Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/enemyMissle.prefab using Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e453e729764c571bd416da074c14c9da') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.947731 seconds.
+  path: Assets/Prefabs/Enemys/enemyMissle.prefab
+  artifactKey: Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/enemyMissle.prefab using Guid(b7f1bbaaf3500b84fb507346fc3a6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38eb32aca73450d2b6dec4c501bb9aad') in 0.023753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.890319 seconds.
+  path: Assets/Prefabs/Enemys/mineBase.prefab
+  artifactKey: Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/mineBase.prefab using Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'MineLight' used by the Animation component 'mineBase' must be marked as Legacy.
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'f2285f1ec38334300af162ebfe8dc098') in 0.028793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.373625 seconds.
+  path: Assets/Prefabs/Enemys/mineBase.prefab
+  artifactKey: Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/mineBase.prefab using Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'MineLight' used by the Animation component 'mineBase' must be marked as Legacy.
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'c291338c78881dd0825d0953c8dfa39b') in 0.027026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.025630 seconds.
+  path: Assets/Prefabs/Enemys/mineBase.prefab
+  artifactKey: Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/mineBase.prefab using Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'MineLight' used by the Animation component 'mineBase' must be marked as Legacy.
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'b587bda141789055bd061376a8929ad8') in 0.027022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.049930 seconds.
+  path: Assets/Prefabs/Enemys/mineBase.prefab
+  artifactKey: Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/mineBase.prefab using Guid(3ced9a8fecd40f5449a1acb8cb237deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'MineLight' used by the Animation component 'mineBase' must be marked as Legacy.
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'MineLight' used by the Animation component 'mineBase(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'e6c53fa4c8b1c67a35d15dea3c859393') in 0.028135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.525722 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9096f808057733376f46b9741c38fdd8') in 0.027174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.407424 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d8f7e59c972ff887add622e5af0ac2') in 0.019285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.016633 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e9ec9ddfa83733a46d17bc72835bc1') in 0.020908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.725711 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b9e0b3211cf78268c523791f66a845') in 0.019705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.643444 seconds.
+  path: Assets/Prefabs/Enemys/simpleEnemy.prefab
+  artifactKey: Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/simpleEnemy.prefab using Guid(29e0fc25da252454babfea2b82e342a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601dc2d45766687adc58f5c005e29e99') in 0.023985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.845716 seconds.
+  path: Assets/Prefabs/Enemys/testSpaceShip.prefab
+  artifactKey: Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/testSpaceShip.prefab using Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe06b74ba25941277900eff158f1e54d') in 0.023948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.969726 seconds.
+  path: Assets/Prefabs/Enemys/testSpaceShip.prefab
+  artifactKey: Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/testSpaceShip.prefab using Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294e80d1a1c92552deef10b258095744') in 0.025356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.567263 seconds.
+  path: Assets/Prefabs/Enemys/testSpaceShip.prefab
+  artifactKey: Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/testSpaceShip.prefab using Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afbe4ee0ac3eee9e8a4ecc6c916bc5d') in 0.028067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.699415 seconds.
+  path: Assets/Prefabs/Enemys/testSpaceShip.prefab
+  artifactKey: Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemys/testSpaceShip.prefab using Guid(cbe27559da1b41443af47ca2c2c708d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d61c5082061445137d0ccc60532eff0') in 0.024970 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.917300 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.209400 ms MarkObjects: 2.371300 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 36.790125 seconds.
+  path: Assets/Prefabs/playerMissle.prefab
+  artifactKey: Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/playerMissle.prefab using Guid(57977e9829a0e2b4180fc9f12eadec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fb42fac9ae7f48119d2ad377ceb3d') in 0.071445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.647348 seconds.
+  path: Assets/Prefabs/shipRocket.prefab
+  artifactKey: Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shipRocket.prefab using Guid(b4e199d770c4d8e40875ef8157f432cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd3af9e1d4234524138707ce5a84749') in 0.024400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 2.565700 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.066700 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 3.189600 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.830500 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 2.877800 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.563800 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 2.501100 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.184700 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.398 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 25.013300 ms (FindLiveObjects: 3.093500 ms CreateObjectMapping: 0.435900 ms MarkObjects: 20.485400 ms  DeleteObjects: 0.552600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 3.239600 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.793100 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 2.762700 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.389300 ms  DeleteObjects: 0.026900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 3.646100 ms (FindLiveObjects: 0.549800 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.939700 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44231.662963 seconds.
+  path: Assets/Prefabs/SFX/SFX.prefab
+  artifactKey: Guid(9fa5f5f46d12c0f44a5512db1fb4f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SFX/SFX.prefab using Guid(9fa5f5f46d12c0f44a5512db1fb4f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639dd0a4b572a27e532b8209eae04278') in 1.070921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.014816 seconds.
+  path: Assets/Sounds/Cosmo3.mp3
+  artifactKey: Guid(a2ba77bb3f91eb94daa33475b28d7f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Cosmo3.mp3 using Guid(a2ba77bb3f91eb94daa33475b28d7f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e26073d41708c49eb7f3b1da9fb731') in 0.564107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.759284 seconds.
+  path: Assets/Prefabs/SFX
+  artifactKey: Guid(0656b083ec07815498a7ad4fc1a10856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SFX using Guid(0656b083ec07815498a7ad4fc1a10856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a19c4f40f2b5ff0072a78c4d2ca7bb') in 0.020270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052638 seconds.
+  path: Assets/Prefabs/SFX/SFX.prefab
+  artifactKey: Guid(9fa5f5f46d12c0f44a5512db1fb4f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SFX/SFX.prefab using Guid(9fa5f5f46d12c0f44a5512db1fb4f1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ac738022bb88b91427e776fa671dd0') in 0.049612 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.093770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.680 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 3.703900 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.084200 ms MarkObjects: 3.273700 ms  DeleteObjects: 0.107600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 4.252800 ms (FindLiveObjects: 0.842300 ms CreateObjectMapping: 0.224000 ms MarkObjects: 3.164700 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.0 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 2.438400 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.041700 ms  DeleteObjects: 0.015200 ms)
+

@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "name": "/actions/NewSet/in/NewAction",
+      "type": "boolean"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/NewSet",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [],
+  "localization": []
+}
