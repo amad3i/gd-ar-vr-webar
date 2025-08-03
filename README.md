@@ -1,4 +1,4 @@
-# 🧠 WebAR / XR / GameDev — (Legacy, 2021–2023)
+# 🧠 WebAR / XR / GameDev — (Legacy, 2020–2022)
 
 > This repository is an archive of my early experiments, freelance projects, and commercial ventures in XR / WebAR / GameDev.
 > Much of my work is under NDA, while the projects presented here represent my initial steps, including prototypes, quick assignments, and tech demos, which I’ve kept as a reflection of my journey. They illustrate my growth as a professional in creating interactive 3D applications using WebGL, PlayCanvas, Unity, and JavaScript. These projects are now Legacy for me, as I’ve transitioned to Golang development and embraced new horizons.
