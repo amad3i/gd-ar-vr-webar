@@ -44,10 +44,10 @@
 
 | Company / Role                       | Dates               | Stack / Notes                                                                     |
 | ------------------------------------ | ------------------- | --------------------------------------------------------------------------------- |
-| **GameFi (Freelance)** — JS Game Dev | Nov 2022 – Feb 2023 | Unity3D/PlayCanvas, Web3 integration, GameFi clones (State.io, Harvest.io, etc)   |
-| **evr.systems** — WebAR Dev          | Mar 2022 – Nov 2022 | Unity3D/PlayCanvas, 8th Wall, React + JavaSript , WebGL, shaders, optimization    |
-| **OmegaFuture** — Unity C# Dev       | Oct 2021 – Mar 2022 | Unity3D/PlayCanvas, EdTech XR, Photon networking, Steam project.                  |
-| **OmegaFuture** — WebAR Dev          | Sep 2021 – Oct 2021 | Unity3D/PlayCanvas, 8th Wall, JavaSript, WebGL, shaders, prefomance optimization. |
-| **Instafilter** — WebAR Dev          | Mar 2021 – Sep 2021 | Unity3D/PlayCanvas, 8th Wall, React + JS integration, shaders, optimization.      |
+| **ARVR3D** — XR/JS Game Dev          | Oct 2022 – Dec 2022 | Unity3D/PlayCanvas, Web3 integration, GameFi, WebXR, WebGL, Three.js              |
+| **evr.systems** — WebAR Dev          | Mar 2022 – Oct 2022 | Unity3D/PlayCanvas, 8th Wall, React + JavaSript, WebGL, shaders, optimization     |
+| **OmegaFuture** — Unity C# Dev       | Sep 2021 – Mar 2022 | Unity3D/PlayCanvas, EdTech XR, Photon networking, Steam project.                  |
+| **OmegaFuture** — WebAR Dev          | Jun 2021 – Sep 2021 | Unity3D/PlayCanvas, 8th Wall, JavaSript, WebGL, shaders, prefomance optimization. |
+| **Instafilter** — WebAR Dev          | Sep 2020 – May 2021 | Unity3D/PlayCanvas, 8th Wall, React + JS integration, shaders, optimization.      |
 
 ---
